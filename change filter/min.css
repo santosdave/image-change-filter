@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Almendra+SC'); 
+
+
+a{
+            display:block;
+            color:#9900ff;
+            margin-left:40%;
+            top:20%;
+            right:20px;
+            z-index:20000;
+            text-align:center;
+            height:20px;
+            border-radius:9px;
+            font-size: 17px;
+            text-decoration: none;
+            font-family: 'Almendra SC',sans-serif;
+       
+        }
+
+button{
+    background-color:cyan;
+    color:#252525;
+}
+.clip{
+  width:720px;
+    height:720px;
+    margin-top:-1%;
+   margin-left:-1%;
+}
+button:hover{
+    box-shadow:0 0 10px cyan ,0 0 40px cyan , 0 0 80px cyan;
+    outline:none;
+}
+
+body {
+  background-color:crimson;
+}
+.container{
+font-family: Almendra SC;
+}
+
+h1{
+    color:black;
+    font-size:20px;
+}
+
+h2{
+    font-size:20px;
+}
+button{
+    width:63px;
+    height:40px;
+    margin-left:2%;
+    background-color:cyan;
+    border:1px solid cyan;
+    border-radius:20px;
+    
+}
+.hide{
+    margin-bottom:25px;
+    //margin-top:-30%;
+}
+
+
+
+.fa fa-download{
+    font-size:40px;
+    z-index:50000;
+    color:#fff;
+    opacity:1;
+}
+.fa{
+    position:fixed;
+    font-size:20px;
+    color:white;
+    z-index:20000;
+    top:20px;
+    right:30px;
+    display:block;
+    width:50px;
+    height:35px;
+    
+    text-align:center;
+    border-radius:50%;
+    background-color:#581845;
+
+}
+footer{
+     background-color: #581845;
+    box-shadow:0 0 40px white;
+    width:100%;
+    margin-left:-2%;
+    top:340px;
+    
+    border-radius:15px;  
+     height:174px;
+    font-size:25px;
+    position:fixed;
+    font-family:Almendra SC;
+}
